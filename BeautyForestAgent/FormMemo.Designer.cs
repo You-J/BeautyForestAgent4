@@ -109,6 +109,7 @@
             this.btnLoadFile.TabIndex = 2;
             this.btnLoadFile.Text = "불러오기";
             this.btnLoadFile.UseVisualStyleBackColor = true;
+            this.btnLoadFile.Click += new System.EventHandler(this.BtnLoadFile_Click);
             // 
             // btnLoadFileSelect
             // 
@@ -118,6 +119,7 @@
             this.btnLoadFileSelect.TabIndex = 1;
             this.btnLoadFileSelect.Text = "파일 선택";
             this.btnLoadFileSelect.UseVisualStyleBackColor = true;
+            this.btnLoadFileSelect.Click += new System.EventHandler(this.BtnLoadFileSelect_Click);
             // 
             // txtLoadFile
             // 
@@ -158,6 +160,7 @@
             this.btnSaveFile.TabIndex = 2;
             this.btnSaveFile.Text = "저장하기";
             this.btnSaveFile.UseVisualStyleBackColor = true;
+            this.btnSaveFile.Click += new System.EventHandler(this.BtnSaveFile_Click);
             // 
             // btnSaveFileSelect
             // 
@@ -167,6 +170,7 @@
             this.btnSaveFileSelect.TabIndex = 1;
             this.btnSaveFileSelect.Text = "파일 읽기";
             this.btnSaveFileSelect.UseVisualStyleBackColor = true;
+            this.btnSaveFileSelect.Click += new System.EventHandler(this.BtnSaveFileSelect_Click);
             // 
             // txtSaveFile
             // 
